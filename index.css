@@ -1,0 +1,38 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            
+            color:rgb(200, 255, 0);
+            width:70%;
+            height:500px;
+            font-size: 28px;
+            line-height: 1.6;
+
+        
+        }
+        h1 {
+            color: blue;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 0;
+            
+            position: absolute;
+            animation: zoom 45s ease-in-out infinite;
+            animation-direction: alternate;
+            
+            transform:scale();
+
+        }
+        @keyframes zoom{
+            0% {opacity: 1;
+                transform: scale(1);}
+            50% {opacity: 1;
+                transform: scale(1.3);}
+            100% {opacity: 1;
+                transform: scale();}
+        }
+        .link{
+            display:grid; grid-template-columns: repeat(1, 1fr); text-align: center;
+        }

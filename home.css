@@ -1,0 +1,94 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            
+            color:rgb(200, 255, 0);
+            width:70%;
+            height:500px;
+            font-size: 28px;
+            line-height: 1.6;
+            background-color: cadetblue;
+            margin-bottom: 0%;
+        }
+        .container{
+  position: relative;
+  width: 137.9%; 
+  height: 700px; 
+  overflow: hidden;
+left:-20px;
+right: -20px; top: -5%; bottom: -20%;
+  
+}
+
+.container img {
+  position: absolute;
+  width:120%;
+  opacity: 0;
+ 
+  transform: scale(1); 
+  animation: crossfade-zoom 70s infinite;
+  animation-direction: reverse alternate;
+}
+ 
+  
+
+
+.container img:nth-child(1) {
+  animation-delay: 1s;
+}
+.container img:nth-child(2) {
+  animation-delay: 10s;
+}
+.container img:nth-child(3) {
+  animation-delay: 20s;
+}
+.container img:nth-child(4){
+  animation-delay: 30s;
+}
+.container img:nth-child(5){
+  animation-delay:40s;
+
+}
+.container img:nth-child(6){
+  animation-delay:50s;
+}
+.container img:nth-child(7){
+  animation-delay: 60s;
+}
+
+
+@keyframes crossfade-zoom {
+  0% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  10% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  30% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  40% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+div{
+            padding-left: 5%; padding-top: 6px; padding-bottom: 6px;
+        }
+.list{
+    position: absolute; margin-left: 10%; top: 7%; color: white;
+}
+h1{
+    font-size: 30px;
+    color:rgb(200, 255, 0)
+}
+.link{display:grid; grid-template-columns: repeat(4, 1fr);padding-left: 0px; padding-bottom: 0.5%;
+     position: fixed; top: 0%; width: 110%; margin-left: -5%; 
+     background:radial-gradient(circle, white, indigo, orange, purple, green, yellow, red) aquamarine;}

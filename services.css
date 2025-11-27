@@ -1,0 +1,32 @@
+body {
+            font-family: Arial, sans-serif;
+            margin-bottom: 0px;
+            
+            color: yellowgreen;
+            width: 85%;
+            font-size: 28px;
+            background: linear-gradient(to right, blue, green, red, violet, yellow , orange, blue);
+            background-position: cover;}
+            h1 {
+               
+                color: blue;
+                text-align: center;
+            }
+.link{
+    display:grid; grid-template-columns: repeat(4, 1fr);padding-left: 0px; padding-bottom: 20px;
+     position: fixed; top: 0%; width: 110%; margin-left: -1%; 
+     background:radial-gradient(circle, white, indigo, orange, purple, green, yellow, red) aquamarine;
+}
+div{
+            padding-left: 5%; padding-top: 6px; padding-bottom: 6px;
+        }
+.cont{
+    margin-left: 10%; margin-top: 100px; text-align: justify;color: black; 
+    line-height: 1.6; padding-bottom: 30px;
+}
+.l{
+    color: yellowgreen;
+}
+.active{
+    color: aqua;
+}

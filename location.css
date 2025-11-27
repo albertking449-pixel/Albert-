@@ -1,0 +1,21 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            color: black;
+            width: 85%;
+            font-size: 28px;
+            background:linear-gradient(to right, red, cyan, blue, green, blue, red, green) ;
+            margin-top: 40px;
+            margin-left: 0.1%;
+
+         }    
+.link{display:grid; grid-template-columns: repeat(4, 1fr);padding-left: 0px; padding-bottom: 0.5%;
+     position: fixed; top: 0%; width: 110%; margin-left: -5%; 
+     background:radial-gradient(circle, white, indigo, orange, purple, green, yellow, red) aquamarine;}
+div{
+            padding-left: 15%; padding-top: 6px; padding-bottom: 6px;
+        }
+.map{
+    width:auto; height: 450; style=border:0; allowfullscreen: ; loading:lazy; referrerpolicy:no-referrer-when-downgrade;
+}

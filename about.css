@@ -1,0 +1,66 @@
+
+
+.link{display:grid; grid-template-columns: repeat(4, 1fr);padding-left: 0px; padding-bottom: 0.5%;
+     position: fixed; top: 0%; width: 110%; margin-left: -1%; padding-left: 4%;
+     background:radial-gradient(circle, white, indigo, orange, purple, green, yellow, red) aquamarine;}
+        
+
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            
+            color: black;
+            width: 85%;
+            font-size: 28px;
+            background-color: gray;
+            color: yellow;
+            line-height: 1.6;
+            font-weight: bold;
+            
+
+            
+            
+        }
+        .container{
+  position: relative; 
+  width: 117.2%; 
+  background-color: coral;
+  height: 100vh;  
+    overflow: hidden;
+    margin-top: 60px;
+    padding: 0%;
+    margin-top: 0%;
+    margin-bottom: 0px;
+    margin-left: 3px;
+
+        }
+        img {
+            width: 105%;
+            height: 100%;
+            padding: 0%;
+            margin: 0%;
+            padding-top: 60px;
+          
+
+            
+            position: absolute;
+            animation: zoom 30s ease-in-out infinite;
+            animation-direction: reverse;
+            
+            transform:scale();
+
+        }
+        @keyframes zoom{
+            0% {opacity: 1;
+                transform: scale(1);}
+            50% {opacity: 1;
+                transform: scale(1.3);}
+            100% {opacity: 1;
+                transform: scale();}
+        }
+        div{
+            padding-left: 5%; padding-top: 6px; padding-bottom: 6px;
+        }
+        .para{
+            position: absolute; line-height: 2.0; margin-left: 30px; width: 80%; color: red;
+        }

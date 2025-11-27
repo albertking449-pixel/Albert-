@@ -3,8 +3,9 @@ body {
             margin: 20px;
             
             color:rgb(200, 255, 0);
-            width:70%;
-            height:500px;
+            width:100%;
+            height:auto
+            ;
             font-size: 28px;
             line-height: 1.6;
 
@@ -35,4 +36,5 @@ body {
         }
         .link{
             display:grid; grid-template-columns: repeat(1, 1fr); text-align: center;
+
         }
